@@ -1,0 +1,24 @@
+# Ignore input and output directories
+input/
+output/
+
+# Ignore compiled C binaries
+*.exe
+*.o
+*.out
+a.out
+
+# Ignore object files and libraries
+*.a
+*.so
+*.dll
+
+# Ignore IDE/editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore temporary files
+*.tmp
+*.temp

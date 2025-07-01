@@ -21,6 +21,8 @@ void csvToExcel(const char* csvFile, const char* excelFile) {
     worksheet_write_string(worksheet, 1, 1, "yeH", NULL);   // B2 = "yeH"
     printf("execution done: writing to sheet\n");
 
+    fclose(file);
+    workbook_close(workbook);
 }
 
 int main() {

@@ -1,0 +1,4 @@
+UID,Name,Address,Rating,Contact,Website,Phone,Hours
+001,Gym A,123 St,4.5,,,,
+002,Gym B,456 Ave,4.2,555-1234,www.gymb.com,,
+003,Gym C,,4.8,,,555-5678,9AM-10PM

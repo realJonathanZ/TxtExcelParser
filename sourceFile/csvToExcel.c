@@ -13,7 +13,14 @@ void csvToExcel(const char* csvFile, const char* excelFile) {
         workbook_close(workbook);
         return;
     }
-    printf("execution happening in csvToExcel function body\n");
+    printf("execution happening in csvToExcel function body before trying to write to sheet\n");
+
+    worksheet_write_string(worksheet, 0, 0, "Bruh", NULL);  // A1 = "Bruh"
+    worksheet_write_string(worksheet, 0, 1, "hurB", NULL);  // B1 = "hurB"
+    worksheet_write_string(worksheet, 1, 0, "Hey", NULL);   // A2 = "Hey"
+    worksheet_write_string(worksheet, 1, 1, "yeH", NULL);   // B2 = "yeH"
+    printf("execution done: writing to sheet\n");
+
 }
 
 int main() {

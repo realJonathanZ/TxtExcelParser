@@ -1,37 +1,37 @@
 #include "dataStruct.h"
 
-int main() {
-    DS* head = NULL;
+// int main() {
+//     DS* head = NULL;
 
-    // create first data section with limited format
-    DS* section1 = createDataSection();
-    addKeyValueLast(section1, "UID", "001");
-    addKeyValueLast(section1, "Name", "Motion Fitness Brighton");
-    addKeyValueLast(section1, "Address", "153 Gibson Bnd, Saskatoon, SK S7V 0P1, Canada");
-    addKeyValueLast(section1, "Rating", "4.4");
+//     // create first data section with limited format
+//     DS* section1 = createDataSection();
+//     addKeyValueLast(section1, "UID", "001");
+//     addKeyValueLast(section1, "Name", "Motion Fitness Brighton");
+//     addKeyValueLast(section1, "Address", "153 Gibson Bnd, Saskatoon, SK S7V 0P1, Canada");
+//     addKeyValueLast(section1, "Rating", "4.4");
     
-    // create next data section with potential enlarged format
-    DS* section2 = createDataSection();
-    addKeyValueLast(section2, "UID", "002");
-    addKeyValueLast(section2, "Name", "Anytime Fitness");
-    addKeyValueLast(section2, "Address", "1804 McOrmond Dr #160, Saskatoon, SK S7S 0A6, Canada");
-    addKeyValueLast(section2, "Contact", "306-555-0123");
-    addKeyValueLast(section2, "MetaInfo", "24/7 access available");
-    addKeyValueLast(section2, "Website", "www.anytimefitness.com");
-    addKeyValueLast(section2, "Rating", "4.4");
+//     // create next data section with potential enlarged format
+//     DS* section2 = createDataSection();
+//     addKeyValueLast(section2, "UID", "002");
+//     addKeyValueLast(section2, "Name", "Anytime Fitness");
+//     addKeyValueLast(section2, "Address", "1804 McOrmond Dr #160, Saskatoon, SK S7S 0A6, Canada");
+//     addKeyValueLast(section2, "Contact", "306-555-0123");
+//     addKeyValueLast(section2, "MetaInfo", "24/7 access available");
+//     addKeyValueLast(section2, "Website", "www.anytimefitness.com");
+//     addKeyValueLast(section2, "Rating", "4.4");
 
-    addDataSectionLast(&head, section1);
-    addDataSectionLast(&head, section2);
+//     addDataSectionLast(&head, section1);
+//     addDataSectionLast(&head, section2);
 
-    printDataSections(head);
+//     printDataSections(head);
     
-    // Test getValue function
-    printf("Section 2 Contact: %s\n", getValue(section2, "Contact"));
-    printf("Section 1 Name: %s\n", getValue(section1, "Name"));
+//     // Test getValue function
+//     printf("Section 2 Contact: %s\n", getValue(section2, "Contact"));
+//     printf("Section 1 Name: %s\n", getValue(section1, "Name"));
 
-    freeDataSections(head);
-    return 0;
-}
+//     freeDataSections(head);
+//     return 0;
+// }
 
 // to create empty data section
 DS* createDataSection() {

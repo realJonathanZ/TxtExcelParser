@@ -1,32 +1,4 @@
-// defining linked list structure
-// in each node: ds is a DataSet struct and next is pointer to next node
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-// Key-Value pair structure (dictionary)
-typedef struct KeyValue {
-    char key[50];   // example "UID", "Name", "Address", "Rating"(or even more)
-    char value[200]; //actual value corresponding to the key
-    struct KeyValue* next;  //pointer to next key-value-pair
-} KV;
-
-// assume input file contains an infoHeader and all sections can be viewed as a DataSection
-typedef struct DataSection {
-    KV* fields;               // linked list of key-value pairs
-    struct DataSection* next;       // next data section
-} DS;
-
-
-// prototypes
-DS* createDataSection();
-KV* createKeyValue(const char* key, const char* value);
-void addKeyValueLast(DS* section, const char* key, const char* value);
-void addDataSectionLast(DS** head, DS* newSection);
-char* getValue(DS* section, const char* key);
-void printDataSections(DS* head);
-void freeDataSections(DS* head);
+#include "dataStruct.h"
 
 int main() {
     DS* head = NULL;

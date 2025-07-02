@@ -12,12 +12,7 @@ output csv file will have format similar to example.csv
 
 
 
-/*Is a key string already existing in an keys array?
-* @param keys: array of strings to check element uniqueness
-* @param arrayLength: number of strings in the array 'keys'
-* @param key: the key to be checked whether it appears somewhere in the array
-* @return 1 if the key exists, 0 otherwise
-*/
+
 int isObtained(char** keys, int arrayLength, const char* key) {
     for (int i = 0; i < arrayLength; i++) {
         if (strcmp(keys[i], key) == 0) {
@@ -27,13 +22,29 @@ int isObtained(char** keys, int arrayLength, const char* key) {
     return 0; // False, cannot find any existence
 }
 
-/* collect all unique keys from all data sections
-* @param head: pointer to the head of the linked list of data sections
-* @param keys: pointer to an array of strings to store unique keys
-* @return uniqueKeys: an array conatining all unique keys found in the data sections
-*/
+
 char** getAllUniqKeys(DS* head, int* found_uniqkeys_quantity) {
-    // will use nested loop: for each section, need traverse all kv pairs
-    // and whether to put key inside is determined by uniqueness (the function above)
+
+    char** uniqKeys = malloc(50 * sizeof(char*)); // at last fill it with all unique keys and return
+    *found_uniqkeys_quantity = 0; // Initialize the count of unique keys
+
+    DS* currentSection = head; // copy the pointer pointing to first data section
+
+    // traverse
+    while (currentSection != NULL) {
+        KV* currentKV = currentSection->fields; // pointing to current key-value pair
+
+        while (currentKV != NULL) {
+            // if key does not exist in the array [uniqKeys], add it, otherwise skip
+            if (!isObtained(uniqKeys, *found_uniqkeys_quantity, currentKV->key)) {
+                uniqKeys[*found_uniqkeys_quantity] = malloc(strlen(currentKV->key) + 1);  // allocate memory for the new key at specific index
+                strcpy(uniqKeys[*found_uniqkeys_quantity], currentKV->key); 
+                (*found_uniqkeys_quantity)++; // increment
+            }
+            currentKV = currentKV->next; // move to next key-value pair
+        }
+        currentSection = currentSection->next; // move to next data section
+    }
     
+    return uniqKeys; // meanwhile, the actual value of (*found_uniqkeys_quantity) is preserved in main() scope
 }

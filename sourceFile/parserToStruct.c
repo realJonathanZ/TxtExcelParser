@@ -95,17 +95,17 @@ DS* parseInputFile(const char* filename) {
     return head;
 } // this is the closing brace of the parseInputFile function
 
-int main() {
-    DS* data = parseInputFile("./input/gym_20250629_180150.txt");
-    if (data == NULL) {
-        printf("Failed to parse input file\n");
-        return 1;
-    }
+// int main() {
+//     DS* data = parseInputFile("./input/gym_20250629_180150.txt");
+//     if (data == NULL) {
+//         printf("Failed to parse input file\n");
+//         return 1;
+//     }
     
-    printf("Successfully parsed input file!\n");
-    printDataSections(data);
-    freeDataSections(data);
-    return 0;
+//     printf("Successfully parsed input file!\n");
+//     printDataSections(data);
+//     freeDataSections(data);
+//     return 0;
 
 
-}
+// }

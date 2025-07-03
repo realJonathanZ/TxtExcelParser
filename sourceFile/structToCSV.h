@@ -18,6 +18,28 @@ int isObtained(char** keys, int arrayLength, const char* key);
  */
 char** getAllUniqKeys(DS* head, int* found_uniqkeys_quantity);
 
+/* Helper function: adds a comma to the current string
+ * @param lineStr: pointer to the string to append comma to
+ */
+void addComma(char* lineStr);
 
+/* Helper function: adds a newline to the current string
+ * @param lineStr: pointer to the string to append newline to
+ */
+void addNewline(char* lineStr);
+
+/* Generate CSV file from DataSections
+ * @param head: pointer to the head of the linked list of data sections
+ * @param csvFilename: output CSV filename
+ */
+void generateCSV(DS* head, const char* csvFilename);
+
+/*Suppose the string array is dynam-allocated, so are all strings in it..
+* this func will free them.
+* @param: uniqKeys - the array of unique keys
+* @param: found_uniqkeys_quantity - the number of unique keys in the array
+* @return: void
+*/ 
+void freeUniqKeys(char** uniqKeys, int found_uniqkeys_quantity);
 
 #endif // STRUCTTOCSV_H

@@ -1,0 +1,304 @@
+Search Results for: gym
+Total Results: 60
+Generated on: 2025-06-29 18:01:50
+==================================================
+
+UID: 001
+Name: Motion Fitness Brighton
+Address: 153 Gibson Bnd, Saskatoon, SK S7V 0P1, Canada
+Rating: 4.4
+
+UID: 002
+Name: Anytime Fitness
+Address: 1804 McOrmond Dr #160, Saskatoon, SK S7S 0A6, Canada
+Rating: 4.4
+
+UID: 003
+Name: Point Fitness Club (Open 24 Hours - No Contract)
+Address: 1200 Central Ave, Saskatoon, SK S7N 2H2, Canada
+Rating: 4
+
+UID: 004
+Name: GoodLife Fitness Saskatoon The Centre
+Address: 3510 8 St E, Saskatoon, SK S7H 0W6, Canada
+Rating: 4.2
+
+UID: 005
+Name: Anytime Fitness
+Address: 120 Tweed Ln, Saskatoon, SK S7V 0K1, Canada
+Rating: 4.4
+
+UID: 006
+Name: Snap Fitness Saskatoon
+Address: 420 Duchess St #4, Saskatoon, SK S7K 0R1, Canada
+Rating: 4.9
+
+UID: 007
+Name: Snap Fitness
+Address: 210 Slimmon Rd #80, Saskatoon, SK S7V 0A7, Canada
+Rating: 4.9
+
+UID: 008
+Name: Motion Fitness Lawson Heights
+Address: 134 Primrose Dr, Saskatoon, SK S7K 5S6, Canada
+Rating: 4.6
+
+UID: 009
+Name: Anytime Fitness
+Address: 250 Hunter Rd #140, Saskatoon, SK S7T 0Y4, Canada
+Rating: 4.2
+
+UID: 010
+Name: Fitness Focus Saskatoon
+Address: 1250 Ontario Ave, Saskatoon, SK S7K 1S5, Canada
+Rating: 4.9
+
+UID: 011
+Name: GoodLife Fitness Saskatoon Preston Crossing
+Address: 1705 Preston Ave N, Saskatoon, SK S7H 2V7, Canada
+Rating: 4.2
+
+UID: 012
+Name: Planet Fitness
+Address: 2325 Preston Ave S, Saskatoon, SK S7J 2G2, Canada
+Rating: 4.1
+
+UID: 013
+Name: Flex Fitness
+Address: 320 Jessop Ave #5, Saskatoon, SK S7N 1Y6, Canada
+Rating: 5
+
+UID: 014
+Name: Maxx-Out Muscle & Fitness
+Address: 625A 1st Ave N, Saskatoon, SK S7K 1X7, Canada
+Rating: 4.9
+
+UID: 015
+Name: Planet Fitness
+Address: 810 Circle Dr E, Saskatoon, SK S7K 3T8, Canada
+Rating: 4.3
+
+UID: 016
+Name: Motion Fitness Stonebridge
+Address: 3110 Clarence Ave S, Saskatoon, SK S7T 0C9, Canada
+Rating: 4.1
+
+UID: 017
+Name: THRIVE ACTIVE SASKATOON
+Address: 431 Nelson Rd, Saskatoon, SK S7S 1P2, Canada
+Rating: 4.9
+
+UID: 018
+Name: Mpowered Fitness
+Address: 701 Broadway Ave, Saskatoon, SK S7N 1B3, Canada
+Rating: 4.8
+
+UID: 019
+Name: Iron Works Gym
+Address: 2105 8 St E #30, Saskatoon, SK S7H 0T8, Canada
+Rating: 4.8
+
+UID: 020
+Name: Next Level Training Strength Systems Inc.
+Address: 200 Jessop Ave, Saskatoon, SK S7N 1Y4, Canada
+Rating: 5
+
+UID: 021
+Name: Rise Strength Lab
+Address: 2630 Jasper Ave S, Saskatoon, SK S7J 2K2, Canada
+Rating: 5
+
+UID: 022
+Name: Split Fitness Studio
+Address: 211 Evergreen Square #25, Saskatoon, SK S7W 0Z2, Canada
+Rating: 5
+
+UID: 023
+Name: Fit4Less
+Address: 301 Confederation Dr Unit #4, Saskatoon, SK S7L 5C3, Canada
+Rating: 4
+
+UID: 024
+Name: Lakewood Civic Centre
+Address: 1635 McKercher Dr, Saskatoon, SK S7H 5J9, Canada
+Rating: 4
+
+UID: 025
+Name: Anytime Fitness
+Address: 300 Confederation Dr, Saskatoon, SK S7L 4R6, Canada
+Rating: 3.7
+
+UID: 026
+Name: Raw Fitness
+Address: 616 Duchess St, Saskatoon, SK S7K 0R1, Canada
+Rating: 5
+
+UID: 027
+Name: Barbarian Strength Gym
+Address: 2302 Hanselman Ave, Saskatoon, SK S7L 5Z3, Canada
+Rating: 5
+
+UID: 028
+Name: YMCA Saskatoon
+Address: 25 22 St E, Saskatoon, SK S7K 0C7, Canada
+Rating: 4.4
+
+UID: 029
+Name: Fitness For 10
+Address: 2414 8 St E, Saskatoon, SK S7H 0V6, Canada
+Rating: 5
+
+UID: 030
+Name: True North Kickboxing
+Address: 1844 McOrmond Dr #106, Saskatoon, SK S7S 0A5, Canada
+Rating: 5
+
+UID: 031
+Name: CrossFit BRIO
+Address: 310 Jessop Ave, Saskatoon, SK S7N 1Y6, Canada
+Rating: 5
+
+UID: 032
+Name: Motion Fitness Blairmore
+Address: 320 Shillington Cres, Saskatoon, SK S7M 1L2, Canada
+Rating: 4.3
+
+UID: 033
+Name: Lawson Civic Centre
+Address: 225 Primrose Dr, Saskatoon, SK S7K 5W1, Canada
+Rating: 4.2
+
+UID: 034
+Name: ProActive Fitness
+Address: 3602 Taylor St E #5, Saskatoon, SK S7H 5H9, Canada
+Rating: 4.9
+
+UID: 035
+Name: Vibrant Bodies Fitness
+Address: 2020 College Dr, Saskatoon, SK S7N 2W4, Canada
+Rating: 5
+
+UID: 036
+Name: Synergy Strength & Sports Therapy
+Address: 103 Marquis Ct #112, Saskatoon, SK S7P 0C4, Canada
+Rating: 4.9
+
+UID: 037
+Name: Lifecycle
+Address: 120 Hawkins Crois. #10, Saskatoon, SK S7V 1T5, Canada
+Rating: 4.9
+
+UID: 038
+Name: Fit By Carla
+Address: 1305 Broadway Ave B, Saskatoon, SK S7H 2A5, Canada
+Rating: 5
+
+UID: 039
+Name: Oxygen Yoga & Fitness Saskatoon
+Address: 1260 Baltzan Blvd Unit 100, Saskatoon, SK S7W 1E8, Canada
+Rating: 5
+
+UID: 040
+Name: CrossFit Ashlar
+Address: 368 Edson St #10, Saskatoon, SK S7J 0P9, Canada
+Rating: 5
+
+UID: 041
+Name: Adult Fitness Circuit
+Address: Riversdale, Saskatoon, SK S7M 1N6, Canada
+Rating: 4.6
+
+UID: 042
+Name: PEAK Climb + HIIT Studio
+Address: 481 2nd Ave N, Saskatoon, SK S7J 2C1, Canada
+Rating: 4.9
+
+UID: 043
+Name: F45 Training Lakewood SC
+Address: 117 Slimmon Rd, Saskatoon, SK S7V 0B8, Canada
+Rating: 4.7
+
+UID: 044
+Name: Supplement World University Heights
+Address: 402 Ludlow St #1, Saskatoon, SK S7M 1N7, Canada
+Rating: 4.9
+
+UID: 045
+Name: Grip It Climbing
+Address: 501 23 St W, Saskatoon, SK S7L 0A4, Canada
+Rating: 4.8
+
+UID: 046
+Name: Ryde City Park - Ryde YXE Cycle Studio
+Address: 741 7 Ave N, Saskatoon, SK S7K 2V3, Canada
+Rating: 4.7
+
+UID: 047
+Name: SUGIFIT TRAINING
+Address: 1738 Quebec Ave #20, Saskatoon, SK S7K 1V9, Canada
+Rating: 5
+
+UID: 048
+Name: Orangetheory Fitness
+Address: 311 Cope Ln Unit 102, Saskatoon, SK S7T 0G3, Canada
+Rating: 4.6
+
+UID: 049
+Name: Lead Integrated Health Therapies
+Address: 214 Joseph Okemasis Dr 10 & 20, Saskatoon, SK S7N 1B1, Canada
+Rating: 4.9
+
+UID: 050
+Name: Be Well Studios
+Address: 102 20th St W, Saskatoon, SK S7M 0W6, Canada
+Rating: 5
+
+UID: 051
+Name: Rhinos Fitness Studio
+Address: 2605 Broadway Ave, Saskatoon, SK S7J 0Z5, Canada
+Rating: 4.7
+
+UID: 052
+Name: We Move SK
+Address: 2325 Preston Ave, Outside entrance on, Mceown Ave Unit 175, Saskatoon, SK S7J 2G2, Canada
+Rating: 4.8
+
+UID: 053
+Name: Crossfit 306
+Address: 3634 B Mitchelmore Ave, Saskatoon, SK S7P 0B9, Canada
+Rating: 5
+
+UID: 054
+Name: WUHCA Outdoor Rink
+Address: Willowgrove, Saskatoon, SK S7W 1A1, Canada
+Rating: 5
+
+UID: 055
+Name: SUGISPIN STUDIO
+Address: 1738 Quebec Ave #26, Saskatoon, SK S7K 1V9, Canada
+Rating: 5
+
+UID: 056
+Name: First Nation Fitness
+Address: 1 33rd St W, Saskatoon, SK S7L4S7, Canada
+Rating: N/A
+
+UID: 057
+Name: Shaw Centre
+Address: 122 Bowlt Crescent, Saskatoon, SK S7M 0L1, Canada
+Rating: 4.3
+
+UID: 058
+Name: CrossFit CL
+Address: 815 45 St W #20, Saskatoon, SK S7L 5X2, Canada
+Rating: 4.9
+
+UID: 059
+Name: Local Barre Fitness
+Address: 423 Avenue B S, Saskatoon, SK S7M 5N3, Canada
+Rating: 5
+
+UID: 060
+Name: FemaleStrongBody
+Address: Online, Saskatoon, SK S7K 4K1, Canada
+Rating: 5

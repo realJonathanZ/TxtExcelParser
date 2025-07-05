@@ -7,6 +7,7 @@ UID: 001
 Name: Motion Fitness Brighton
 Address: 153 Gibson Bnd, Saskatoon, SK S7V 0P1, Canada
 Rating: 4.4
+Hey:  I'm the accidentally new attribute in it 
 
 UID: 002
 Name: Anytime Fitness
@@ -22,11 +23,13 @@ UID: 004
 Name: GoodLife Fitness Saskatoon The Centre
 Address: 3510 8 St E, Saskatoon, SK S7H 0W6, Canada
 Rating: 4.2
+Hey: What??@##@
 
 UID: 005
 Name: Anytime Fitness
 Address: 120 Tweed Ln, Saskatoon, SK S7V 0K1, Canada
 Rating: 4.4
+Bruh: I am another attribute
 
 UID: 006
 Name: Snap Fitness Saskatoon
@@ -67,6 +70,7 @@ UID: 013
 Name: Flex Fitness
 Address: 320 Jessop Ave #5, Saskatoon, SK S7N 1Y6, Canada
 Rating: 5
+Bruh:  Whatttt?oooo
 
 UID: 014
 Name: Maxx-Out Muscle & Fitness

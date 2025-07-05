@@ -42,4 +42,8 @@ void generateCSV(DS* head, const char* csvFilename);
 */ 
 void freeUniqKeys(char** uniqKeys, int found_uniqkeys_quantity);
 
+int hasDogeWrapper(const char* str);
+
+char* removeDogeWrapper(const char* str);
+
 #endif // STRUCTTOCSV_H

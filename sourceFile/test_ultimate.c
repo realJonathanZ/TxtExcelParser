@@ -19,17 +19,17 @@ int main() {
     
     // convert to CSV
     printf("converting to CSV...\n");
-    generateCSV(gymData, "./csvMiddleOutput/gym_data.csv");
+    generateCSV(gymData, "./csvMiddleOutput/gym_20250629_180150.csv");
 
     // convert to Excel sheet (.xlsx)
     printf("converting to Excel sheet (.xlsx)...\n");
-    csvToExcel("./csvMiddleOutput/gym_data.csv", "./output/gym_data.xlsx");
-    
+    csvToExcel("./csvMiddleOutput/gym_20250629_180150.csv", "./output/gym_20250629_180150.xlsx");
+
     // cleanup dynam-mem
     freeDataSections(gymData);
     
     printf("Conversion complete.\n");
-    printf("Output: ./output/gym_data.xlsx\n");
-    
+    printf("Output: ./output/gym_20250629_180150.xlsx\n");
+
     return 0;
 }

@@ -60,6 +60,65 @@ void addNewline(char* lineStr) {
     strcat(lineStr, "\n");
 }
 
+/*The helper functions used in generateCSV(...)*/
+
+/*Add the wrapper head and wrapper tail to value (var:str) Doge,if needed
+* or the original string value returned, if no need to wrap*/
+char* wrapDogeIfNeeded(const char* str) {
+    if (strchr(str, ',') != NULL) {
+        // The doge value contains comma, need to wrap it
+        char* wrappedDoge = malloc(strlen(str) + 20); // extra space for the wrapper
+        sprintf(wrappedDoge, "#DOGES@%s@DOGEE#", str); // wrap with customized wrapper
+        return wrappedDoge;
+    }else {
+        // return original string
+        char* copy = malloc(strlen(str) + 1);
+        strcpy(copy, str);
+        return copy;
+    }
+}
+
+/* Check if string has DOGE wrapper, at head and tail */
+int hasDogeWrapper(const char* str) {
+    int bool_head_detect = strncmp(str, "#DOGES@", 7) == 0;
+    int bool_tail_detect = strstr(str, "@DOGEE#") != NULL;
+    return bool_head_detect && bool_tail_detect;
+}
+
+/* Remove DOGE wrapper from given string
+* @return: newly dynam-allocated string without DOGE wrapper
+*/
+char* removeDogeWrapper(const char* str) {
+    if (!hasDogeWrapper(str)) {
+        // no wrapper detected, return copy
+        char* copy = malloc(strlen(str) + 1);
+        strcpy(copy, str);
+        return copy;
+    }
+    
+    // pointing to (DOGE-wrapper head last char+1) and DOGE-wrapper tail 1st char
+    const char* ptohead = str + 7; // Skip "#DOGES@"
+    const char* ptotail = strstr(str, "@DOGEE#");
+
+    if (ptotail == NULL) {
+        // no wrapper tail detected, return copy
+        char* copy = malloc(strlen(str) + 1);
+        strcpy(copy, str);
+        return copy;
+    }
+    
+    // Extract content between wrappers
+    int contentLen = ptotail - ptohead;
+    char* unwrapped = malloc(contentLen + 1);
+    strncpy(unwrapped, ptohead, contentLen);
+    unwrapped[contentLen] = '\0';
+    
+    return unwrapped;
+}
+
+
+
+
 void generateCSV(DS* head, const char* csvFilename) {
     if (head == NULL) {
         printf("Error: the head data section is NULL.\n");
@@ -123,15 +182,9 @@ void generateCSV(DS* head, const char* csvFilename) {
 
             // if can find key-value pair, optained value in THIS section
             if (value != NULL) {
-                // value might contain comma
-                // sttempt approach: warp around with double quotes
-                if (strchr(value, ',') != NULL) {
-                    char wrappedValue[500]; // str buffer for quoted value
-                    sprintf(wrappedValue, "\"%s\"", value); // wrap with double quotes
-                    strcat(strOnBuild, wrappedValue); // append last to the data line
-                } else {
-                    strcat(strOnBuild, value);
-                }
+            char* wrappedValue = wrapDogeIfNeeded(value); // handles logic of comma detection in func, and dynam-alloc-mem
+            strcat(strOnBuild, wrappedValue);
+            free(wrappedValue);
             }
             // if cannot find a value with given key in THIS section..
             // DO NOTHING, empty string is appended before next comma or newline

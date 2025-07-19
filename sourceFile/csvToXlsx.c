@@ -40,9 +40,9 @@ int parseCSVLineToDogeArray(char* line, char** dogeArray, int maxDogeQuantity) {
             doge[length] = '\0'; // null-terminate the string
             dogeArray[dogeArrayMovingIndex] = doge; // add to array
             dogeArrayMovingIndex++; // for the next doge.. in the next iteration
-            i += 8; // skip the doge wrapper tail
+            i += 7; // skip the doge wrapper tail
             // if +7, will be positioned at the comma.. Thus plus 8
-            start = i; // move start to index of first char of next doge
+            start = i + 1; // move start to index of first char of next doge
         } else if (c == ',' && !bool_is_inDogeWrapper) {
             // if position cursor at a comma and not in a doge wrapper.
             line[i] = '\0'; // replace comma with null terminator
